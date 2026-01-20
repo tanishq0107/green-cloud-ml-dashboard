@@ -13,7 +13,7 @@ st.set_page_config(
 # ======================
 
 final_df = pd.read_csv("final_output.csv")
-ci_df = pd.read_csv(r"E:\ML Project\Carbon_Intensity_Data.csv")
+ci_df = pd.read_csv("Carbon_Intensity_Data.csv")
 
 # ======================
 # TITLE
@@ -315,3 +315,4 @@ if section == "Green Scheduling Decisions":
 
     with col1:
         st.pyplot(fig6)
+
